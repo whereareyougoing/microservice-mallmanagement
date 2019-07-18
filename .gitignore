@@ -27,4 +27,4 @@ hs_err_pid*
 /microservice-mallmanagement.iml
 /.idea/
 /*/.mvn/
-/*/target
+/*/target/
