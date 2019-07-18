@@ -14,6 +14,22 @@
     <artifactId>microservice-mallmanagement</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <commons-collections-version>3.2.1</commons-collections-version>
+    </properties>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>${commons-collections-version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
     <modules>
         <module>microservice-eureka-server</module>
         <module>microservice-gateway-zuul</module>

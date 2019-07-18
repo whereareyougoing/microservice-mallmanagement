@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306:/microservice_mallmanagement
+    # 与docker整合
+    # url: jdbc:mysql://mysql:3306/microservice_mallmanagement
+    username: root
+    password: 123456
