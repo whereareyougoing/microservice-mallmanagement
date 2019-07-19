@@ -6,3 +6,14 @@ spring:
     # url: jdbc:mysql://mysql:3306/microservice_mallmanagement
     username: root
     password: 123456
+  application:
+    name: user-service
+server:
+  port: 8030
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      # 上线测试的配置
+      # defaultZone: http://eureka-server:8761:/eureka/
+ORDERSERVICEURL: http://order-service/
